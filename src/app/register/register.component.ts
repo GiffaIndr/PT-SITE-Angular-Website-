@@ -1,18 +1,14 @@
 import { Component } from '@angular/core';
 
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-register',
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.css']
 })
-export class AppComponent {
+export class RegisterComponent {
   title = 'pt-site';
   imageUrl = 'assets/images/';
   images = ['catfront.gif'];
   constructor() { }
-  ngOnInit() {
-
-  }
+  ngOnInit() {}
 }
- 

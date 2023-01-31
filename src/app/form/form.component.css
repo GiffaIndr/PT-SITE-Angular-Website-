@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+}
+section{
+    padding: 120px 16%;
+}
